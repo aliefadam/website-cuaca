@@ -7,7 +7,7 @@ $(document).ready(function () {
     $("#detail-cuaca").hide(500);
     $.ajax({
       type: "GET",
-      url: "http://api.openweathermap.org/data/2.5/weather",
+      url: "https://api.openweathermap.org/data/2.5/weather",
       data: {
         q: locationSearch,
         appid: "88204fa2985d407584586380103f3c41",
